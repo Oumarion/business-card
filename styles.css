@@ -1,0 +1,53 @@
+body {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100px;
+
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+p:hover {
+  background-color: #9bcaef;
+  color: white;
+}
+
+.card {
+  margin: 0 auto;
+  /* border: 1px dotted blue; */
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #7ab2df;
+  border-radius: 6px;
+  /* border-block-width: 1px;
+  border-block-style: dotted;
+  border-block-color: red; */
+  text-align: center;
+
+  color: #2b2839;
+  border-bottom: 8px solid #d8cefe;
+}
+
+.card > div {
+  border-bottom: 4px dotted #aa8dbb;
+}
+
+h3 {
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+@keyframes example {
+  from {
+    background-color: #2b2839;
+  }
+  to {
+    background-color: #3b3554;
+  }
+}
